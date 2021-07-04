@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className='App'>
-      {user.email != '' ? (
+      {user.email !== '' ? (
         <div className='welcome'>
           <h2>
             Welcome, <span>{user.name}</span>
